@@ -1,0 +1,24 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Untitled Document</title>
+<link rel="stylesheet" href="css/styles.css">
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyALcv0EknammENHPM_2eucHSXz-9QC3STs&libraries=places"></script>
+<script src="grw.min.js"></script>
+	
+</head>
+
+<body>
+	<div id="widget"></div>
+	<script>
+		$GrwJS.init({
+			target:'#widget',
+			placeid:'ChIJpcanZ0L2wokRoWs8p9gEJcM', 
+			theme:'dark',
+			numOfWords:30,
+			horizontal:true
+		});
+	</script>
+</body>
+</html>
